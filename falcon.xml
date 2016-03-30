@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="CyanogenMod/android_device_motorola_falcon" path="device/motorola/falcon" remote="github" />
+  <project name="CyanogenMod/android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="github" />
+  <project name="CyanogenMod/android_device_qcom_common" path="device/qcom/common" remote="github" />
+  <project name="CyanogenMod/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" />
+  
+  <!-- Mer -->
+  <project name="mer-hybris/android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="github" revision="hybris-12.1"/>
+  <project path="hybris/droid-hal-version-falcon" name="mer-hybris/droid-hal-version-falcon" revision="master" />
+  <project path="hybris/droid-configs" name="mer-hybris/droid-config-falcon" revision="master" />
+  <project path="rpm" name="mer-hybris/droid-hal-falcon" revision="master" />
+</manifest>
