@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<project path="device/sony/pollux"
+name="CyanogenMod/android_device_sony_pollux"
+revision="stable/cm-12.1-YOG4P" />
+<project path="device/sony/pollux-common"
+name="CyanogenMod/android_device_sony_pollux-common"
+revision="stable/cm-12.1-YOG4P" />
+<project path="device/sony/fusion3-common"
+name="CyanogenMod/android_device_sony_fusion3-common"
+revision="stable/cm-12.1-YOG4P" />
+<project path="device/sony/common"
+name="CyanogenMod/android_device_sony_common"
+revision="stable/cm-12.1-YOG4P" />
+<project path="device/qcom/common"
+name="CyanogenMod/android_device_qcom_common"
+revision="stable/cm-12.1-YOG4P" />
+<project path="kernel/sony/apq8064"
+name="corvinux/android_kernel_sony_apq8064"
+revision="hybris-12.1" />
+<!--<project path="kernel/sony/apq8064" 
+name="CyanogenMod/android_kernel_sony_apq8064" 
+revision="stable/cm-12.1-YOG4P"/>-->
+<project path="hardware/sony/thermanager"
+name="CyanogenMod/android_hardware_sony_thermanager"
+revision="stable/cm-12.1-YOG4P" />
+<project path="vendor/sony"
+name="TheMuppets/proprietary_vendor_sony"
+revision="stable/cm-12.1-YOG4P"/>
+<project path="rpm/"
+name="corvinux/droid-hal-pollux" 
+revision="master" />
+<project path="hybris/droid-configs"
+name="corvinux/droid-config-pollux" 
+revision="master" />
+<project path="hybris/droid-hal-version-pollux"
+name="corvinux/droid-hal-version-pollux"
+ revision="master" />
+</manifest>
+
