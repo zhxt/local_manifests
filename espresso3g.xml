@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/samsung/espresso3g"   name="CyanogenMod/android_device_samsung_espresso3g"   revision="cm-12.1" />
+  <project path="device/samsung/espressowifi" name="yacuken/android_device_samsung_espressowifi"     revision="hybris-12.1" />
+  <project path="kernel/samsung/espresso10"   name="yacuken/android_kernel_samsung_espresso10"       revision="hybris-12.1" />
+  <project path="hardware/samsung"            name="CyanogenMod/android_hardware_samsung"            revision="cm-12.1" />
+  <project path="vendor/samsung"              name="TheMuppets/proprietary_vendor_samsung"           revision="cm-12.1" />
+
+  <project path="rpm"                                 name="yacuken/droid-hal-espresso3g"         revision="master" />
+  <project path="hybris/droid-configs"                name="yacuken/droid-config-espresso3g"      revision="master" />
+  <project path="hybris/droid-hal-version-espresso3g" name="yacuken/droid-hal-version-espresso3g" revision="master" />
+</manifest>
+
