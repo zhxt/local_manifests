@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+
+  <project path="kernel/xiaomi/msm8996" name="zhxt/android_kernel_xiaomi_msm8996-1" revision="hybris-14.1-caf" />
+  <project path="device/xiaomi/gemini" name="zhxt/android_device_xiaomi_gemini-1" revision="hybris-14.1" />
+
+  <project path="device/xiaomi/msm8996-common" name="LineageOS/android_device_xiaomi_msm8996-common" remote="github" />
+
+  <!--
+  <project path="kernel/xiaomi/msm8996" name="LineageOS/android_kernel_xiaomi_msm8996" revision="cm-14.1" />
+  <project path="device/xiaomi/gemini" name="LineageOS/android_device_xiaomi_gemini" revision="cm-14.1" />
+  -->
+  
+  <project path="vendor/xiaomi" name="TheMuppets/proprietary_vendor_xiaomi" revision="cm-14.1"/>
+
+  <project path="rpm" name="zhxt/droid-hal-gemini" revision="hybris-14.1" />
+  <project path="hybris/droid-hal-version-gemini" name="zhxt/droid-hal-version-gemini" revision="hybris-14.1" />
+  <project path="hybris/droid-configs" name="zhxt/droid-config-gemini" revision="hybris-14.1" />
+
+  <!--
+  <project path="vendor/xiaomi" name="Mi5Devs/proprietary_vendor_xiaomi" revision="cm-14.1"/>
+  -->
+
+</manifest>
