@@ -5,7 +5,7 @@
   <project path="kernel/xiaomi/msm8996" name="zhxt/android_kernel_xiaomi_msm8996-1" revision="hybris-14.1-caf" />
   <project path="device/xiaomi/gemini" name="zhxt/android_device_xiaomi_gemini-1" revision="hybris-14.1" />
 
-  <project path="device/xiaomi/msm8996-common" name="LineageOS/android_device_xiaomi_msm8996-common" remote="github" />
+  <project path="device/xiaomi/msm8996-common" name="zhxt/android_device_xiaomi_msm8996-common" remote="github" revision="hybris-14.1" />
 
   <!--
   <project path="kernel/xiaomi/msm8996" name="LineageOS/android_kernel_xiaomi_msm8996" revision="cm-14.1" />
@@ -16,7 +16,12 @@
 
   <project path="rpm" name="zhxt/droid-hal-gemini" revision="hybris-14.1" />
   <project path="hybris/droid-hal-version-gemini" name="zhxt/droid-hal-version-gemini" revision="hybris-14.1" />
+  <!--
   <project path="hybris/droid-configs" name="zhxt/droid-config-gemini" revision="hybris-14.1" />
+  -->
+
+  <!-- Note: for Mi 5(gemini) it is need to remove vdc form /system/bin/ to make dhi work.-->
+  <project path="hybris/droid-configs" name="zhxt/droid-config-gemini" revision="downgrade-vibrator" />
 
   <!--
   <project path="vendor/xiaomi" name="Mi5Devs/proprietary_vendor_xiaomi" revision="cm-14.1"/>
